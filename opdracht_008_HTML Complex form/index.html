@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Recipes Form</title>
+</head>
+
+    <body>
+        <header>
+            <h1>Add your favorite recipes here ...</h1>
+        </header>
+        <form name="Recipesform" method="POST" data-netlify="true">
+            <p>
+                <label>Name:<input type="text" name="name"/></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email"/></label>
+            </p>
+            <p>
+                <label>Telephone number <input type="tel" name="tel"/></label>
+            </p>
+            <p>
+                <label>Age:<input type="number" name="age"/></label>
+            </p>
+
+            <p>
+                <label>Date of birth:<input type="date" name="birthdate"/></label>
+            </p>
+            <p>
+                <label> Gender:<br> 
+                    <input type="radio" id="Male" name="Gender" value="Male">
+                    <label for="Male">Male</label>
+                    <br>
+                    <input type="radio" id="Female" name="Gender" value="Female">
+                    <label for="Female">Female</label><br>
+                </label>
+            </p>
+            <p>
+                <label>Favorite cuisine:<br>
+                    <input type="checkbox" id="cuisine1" name="cuisine1" value="French">
+                    <label for="cuisine1"> French</label><br>
+                    <input type="checkbox" id="cuisine2" name="cuisine2" value="Italian">
+                    <label for="cuisine2"> Italian</label><br>
+                    <input type="checkbox" id="cuisine3" name="cuisine3" value="Spanish">
+                    <label for="cuisine3"> Spanish</label><br>
+                    <input type="checkbox" id="cuisine4" name="cuisine4" value="Arabic">
+                    <label for="cuisine4"> Arabic</label><br>
+                </label>
+            </p>
+            <p>
+                <label for="favcolor">Favorite apron color:</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+            </p>
+            <p>
+                <label>Biography: <textarea text-align="left" name="biography"></textarea>
+                </label>
+            </p>
+            <p>
+                <label for="myrecipe">Upload your latest recipe:</label>
+                <input type="file" id="myrecipe" name="myrecipe"><br><br>
+            </p>
+            <p>
+                <label for="homepage">Add your homepage:</label>
+                <input type="url" id="homepage" name="homepage">
+            </p>
+            <p>
+                <input type="reset" value="Reset">
+            </p>
+            <p>
+                <button> <input type="submit" value="Submit"></button>
+            </p>
+        </form>
+    </body> 
+</html>
