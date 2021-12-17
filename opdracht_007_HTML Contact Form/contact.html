@@ -7,19 +7,24 @@
 </head>
 
     <body>
+        <header class="box-model-properties">
+            <h1 class="center-title">Contact formulier:</h1>
+        </header>
         <form class="box-model-properties" name="contact" method="POST" data-netlify="true">
             <p>
-                <label>Name: <input type="text" value="Name"/></label>
+                <label>Naam:<input type="text"/></label>
             </p>
             <p>
-                <label>Email: <input type="email" value="Email"/></label>
+                <label>Email: <input type="email"/></label>
             </p>
             <p>
-                <label>Vraag: <textarea rows="10" cols="10">
-                Stel hier uw vraag
-                </textarea></label>
+                <label>Vraag: <textarea rows="10" cols="21" text-align="left"></textarea>
+                </label>
             </p>
-            <p><button>Verstuur: <input type="submit" value="verstuur"/></button>
+            <p><button><input type="submit"/></button>
+            </p>
+            <p>
+                <a href="about.html"> Terug</a>
             </p>
         </form>
     </body> 
